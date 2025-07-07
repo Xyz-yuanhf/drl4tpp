@@ -17,6 +17,8 @@ This repository contains the code for paper: [Deep Reinforcement Learning for Tr
 
 ## Usage
 
+First download the [data](https://drive.google.com/file/d/1vSdvV4Ivu_g-CDGGzWja2HQcmGcOclnk/view?usp=drive_link) and unzip it to the main folder.
+
 #### Evaluation
 
 The pretrained models for UTPP and RTPP of size $(|M|,|K|)=(50, 50)$ to $(100, 100)$ are available in the `ckpt` folder. Below is examples to run the evaluation on synthetic TPP instances.
