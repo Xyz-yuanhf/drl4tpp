@@ -3,7 +3,7 @@
 This repository contains the code for paper: [Deep Reinforcement Learning for Traveling Purchaser Problems](https://ieeexplore.ieee.org/document/11059335) (*IEEE Transactions on Emerging Topics in Computational Intelligence*).
 
 <p align="center">
-    <img src="fig.png" width= "720">
+    <img src="fig.png" width= "100%">
 </p>
 
 ## Requirements
