@@ -57,13 +57,13 @@ python -m evaluation.rtpp.benchmark --graph_size 50 --num_products 50 --coeff 0.
 
 #### Training
 
-For training a model for a single TPP instance distribution, you can run (take RTPP of $(50, 50, 0.99)$ as an example):
+To train a model for a single TPP instance distribution, you can run (take RTPP of $(50, 50, 0.99)$ as an example):
 
 ```
 python -m train_single.run --problem rtpp --num_products 50 --num_products 50 --coeff 0.99
 ```
 
-For training a model using meta-learning, you can run (take UTPP and RTPP with $\lambda=0.99$ as an example):
+To train a model using meta-learning, you can run (take UTPP and RTPP with $\lambda=0.99$ as an example):
 
 ```
 python -m train_meta.run --problem utpp
